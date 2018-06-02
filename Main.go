@@ -29,5 +29,17 @@ func main() {
 	_valueString = "Leslie"
 
 	fmt.Println(_valeInt, _valueFloat, _valueBool, _valueString)
+	lista()
+	fmt.Println(nombre())
+}
+
+func lista() {
+	for index := 0; index < 10; index++ {
+		fmt.Println("Numero", index)
+	}
+}
+
+func nombre() string {
+	return "Katty"
 
 }
